@@ -14,11 +14,9 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
+        <!-- Alpine.js -->
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
     </head>
     <body class="antialiased">
     <div class="bg-blue-100 h-screen flex flex-col items-center justify-center gap-12">
